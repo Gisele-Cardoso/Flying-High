@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Dosis;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+}
+
+.menu-item{
+    display: flex;
+    gap: 20px;
+}
+
+.menu-item a{    
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.introducao{
+    justify-content: center;
+    background: linear-gradient(#691939 10%,#BA2019 30%,#E6350F 50%, #F6550F 80%,#FD8C11 100%);
+    flex-direction: column;
+    align-items: center;
+}
+
+.introducao-titulo{
+    padding-top: 50px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.empresa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+h2{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.empresa-texto p{
+    font-size: 1.4rem;
+    padding-bottom: 50px;
+}
+
+.botao-1{
+    background: linear-gradient(rgb(231, 92, 50), rgb(173, 46, 7));
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 150px;
+    height: 30px;
+    font-weight: 500;
+}
+
+.pacotes{
+    background: linear-gradient(rgb(190, 72, 3), rgb(236, 124, 49));
+    padding-bottom: 60px;
+}
+
+.pacotes h2{
+    padding-bottom: 50px;
+    padding-left: 50px;
+    text-align: left;
+    color: #fff;
+    font-weight: 500;
+}
+
+.card-pacote{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 170px;
+    margin: 30px;
+}
+
+.card{
+    width: 200px;
+    height: 320px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 4px;
+}
+
+.card img{
+    border-radius: 4px 4px 0px 0px;
+    width: 100%;
+}
+
+.card h3{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.card p{
+    padding-left: 5px;
+    padding-bottom: 20px;
+    color: #000;
+    font-weight: 500;
+}
+
+.botao-pacotes{
+    border: none;
+    width: 90px;
+    height: 30px;
+    background: linear-gradient(rgb(223, 112, 47), rgb(206, 82, 10));
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    align-items: flex-end;
+}
