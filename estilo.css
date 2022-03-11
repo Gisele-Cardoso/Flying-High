@@ -76,11 +76,19 @@ h2{
     padding-bottom: 60px;
 }
 
-.pacotes h2{
+.titulo-white{
     padding-bottom: 50px;
     padding-left: 50px;
     text-align: left;
     color: #fff;
+    font-weight: 500;
+}
+
+.titulo-black{
+    padding-bottom: 50px;
+    padding-left: 50px;
+    text-align: left;
+    color: #000;
     font-weight: 500;
 }
 
@@ -129,4 +137,37 @@ h2{
     text-transform: uppercase;
     font-weight: 500;
     align-items: flex-end;
+}
+
+.album{
+    display: flex;
+    justify-content: space-around;
+}
+
+.album-img img{
+    border-radius: 10px;
+}
+
+.contato{
+    margin-top: 110px;
+    background: linear-gradient(to right, rgb(158, 53, 4), rgb(230, 122, 51));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contato-texto{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.contato-img img{   
+    margin-top: -50px; 
+    border-radius: 10px;
+}
+
+.contato-titulo h2{
+   color: #000;
 }
